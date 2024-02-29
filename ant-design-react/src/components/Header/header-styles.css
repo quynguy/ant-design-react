@@ -1,6 +1,9 @@
+* { 
+    box-sizing: border-box;
+}
 
 .header {
-    background-color: rgb(233, 188, 188);
+    background-color: #edf6f9;
     height: 75px;
 }
 
@@ -12,7 +15,7 @@
 
 nav {
     height: 50px;
-    background-color: rgb(235, 225, 225);
+    background-color: #83c5be;
 }
 
 .nav-bar {
@@ -26,4 +29,28 @@ nav {
     text-decoration: none;
 }
 
+main {
+    height: 75vh;
+    overflow: auto;
+    margin-top: .25rem;
+}
 
+.explore-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas: 
+        "explore-left explore-right explore-right"
+        "explore-left explore-right explore-right";
+}
+
+.explore-right {
+    grid-area: explore-right;
+    background-color: pink;
+}
+
+.explore-left {
+    grid-area: explore-left;
+    background-color: #006d77;
+}

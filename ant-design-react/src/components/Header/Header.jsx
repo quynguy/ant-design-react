@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './header-styles.css';
+import List from '../List/List.jsx';
 
 
 const Header = () => {
@@ -16,6 +17,12 @@ const Header = () => {
         <a href="#">Login</a>
         <a href="#">Register</a>
       </nav>
+
+      <main className="explore-container">
+        <div className="explore-right"></div>
+        <List />
+        <div className="explore-left"></div>
+      </main>
     </div>
 
   )
