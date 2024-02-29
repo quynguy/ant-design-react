@@ -1,18 +1,16 @@
-import { useState } from 'react'
+import React from 'react'
+import ReactDOM from 'react-dom/client'
 
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Header from './components/Header/Header.jsx';
+import Footer from './components/Footer/Footer.jsx';
 
 function App() {
 
-
   return (
     <>
-      <div>
-        <h1> Hello World </h1>
-      </div>
+      <Header />
     </>
   )
 }
 
-export default App
+export default App;
