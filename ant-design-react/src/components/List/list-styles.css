@@ -2,6 +2,27 @@
     box-sizing: border-box;
 }
 
-.explore-container {
-    background-color: red;
+.list-app {
+    height: 100vh;
+    background-color:#edf6f9;
 }
+
+.list-heading {
+    text-align: center;
+    padding-top: .25rem;
+}
+
+.explore-container {
+    padding: 15px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+select {
+    width: 250px;
+    height: 25px;
+}
+
+
+

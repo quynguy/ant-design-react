@@ -2,28 +2,25 @@
     box-sizing: border-box;
 }
 
-.header {
-    background-color: #edf6f9;
-    height: 75px;
-}
-
 .heading {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #edf6f9;
+    height: 120px;
 }
 
-nav {
-    height: 50px;
-    background-color: #83c5be;
+
+.heading h1 {
+    text-align: center;
+    padding-top: 13px;
 }
 
 .nav-bar {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #83c5be;
     height: 50px;
 }
+
 
 .nav-bar a {
     text-decoration: none;
