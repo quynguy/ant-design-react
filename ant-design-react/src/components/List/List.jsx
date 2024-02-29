@@ -9,7 +9,7 @@ import { Card } from 'antd';
 
 const List = () => {
 
-  const [selectedOption, setSelectedOption] = useState(null);
+  const [selectedOption, setSelectedOption] = useState('');
   const handleChange = (e) => {
     setSelectedOption(e.target.value);
   };
