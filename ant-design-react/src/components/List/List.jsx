@@ -4,6 +4,7 @@ import './list-styles.css';
 
 import { DownOutlined, SmileOutlined } from '@ant-design/icons';
 import { Dropdown, Space } from 'antd';
+import { Card } from 'antd';
 
 
 const List = () => {
@@ -34,11 +35,26 @@ const List = () => {
           <option value="r-2">Above 4.0</option>
           <option value="r-3">Above 4.5</option>
         </select>
-       
-        
       </div>
-    </div>
-  )
-}
 
-export default List
+      <div className="explore-list">
+        <Space direction="vertical" size={16}>
+          <Card
+            title="Default size card"
+            extra={<a href="#">More</a>}
+            style={{
+              width: 275,
+            }}
+          >
+            <p>Card content</p>
+            <p>Card content</p>
+            <p>Card content</p>
+          </Card>
+        </Space>
+      </div>
+
+    </div>
+  );
+};
+
+export default List;
