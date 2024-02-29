@@ -24,5 +24,10 @@ select {
     height: 25px;
 }
 
+.explore-list {
+    padding: 10px;
+    overflow-y: auto;
+    max-height: 550px;
+}
 
 
